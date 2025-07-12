@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* Light theme */
+  color: #000; /* Text color for light theme */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+body.dark {
+  background-color: #2c2c2c; /* Dark theme */
+  color: yellow; /* Text color for dark theme */
+}
+header {
+  background: #35424a;
+  color: #ffffff;
+  padding: 20px 20px;
+  text-align: center;
+  transition: transform 0.3s ease; /* Add a gentle transition */
+}
+
+header:hover {
+  transform: scale(1.02); /* Slight scaling on hover for subtle effect */
+}
+button {
+  background-color: #FF6347; /* Button color */
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #ff4500; /* On hover color for button */
+}
+h1, h2 {
+  margin: 0;
+  padding: 10px 0;
+  transition: color 0.3s ease; /* Change text color on hover */
+}
+
+h1:hover, h2:hover {
+  color: #FF6347; /* Change color on hover for emphasis */
+}
+
+section {
+  background: #ffffff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Softer shadow */
+  transition: box-shadow 0.3s ease; /* Smooth shadow transition */
+}
+
+section:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Increase shadow on hover for depth */
+}
+body.dark section {
+  background: #444; /* Section background for dark theme */
+}
+a {
+  color: #30d3e8;
+  text-decoration: none;
+  transition: color 0.3s ease; 
+}
+
+a:hover {
+  color: #FF6347; /* Color change for links on hover */
+}
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill {
+  margin: 10px;
+  text-align: center;
+}
+
+.skill img {
+  width: 80px; /* Adjust size of logos */
+  height: 80px;
+  transition: transform 0.3s ease;
+}
+
+.skill img:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+}
